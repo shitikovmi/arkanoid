@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arcanoid</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+    <div class="background">
+        <div class="top-plane"></div>
+        <div class="bottom-plane"></div>
+    </div>
+    <div class="info">
+        <div class="info__item">
+            level
+            <span id="level"></span>
+        </div>
+        <div class="info__item">
+            lives
+            <span  id="lives"></span>
+        </div>
+        <div class="info__item">
+            score
+            <span id="score"></span>
+        </div>
+    </div>
+    <div
+        style="display: none"
+        id="message"
+        class="message"></div>
+    <script src="js/Element.js"></script>
+    <script src="js/MovingElement.js"></script>
+    <script src="js/Canvas.ts"></script>
+    <script src="js/Characteristics.js"></script>
+    <script src="js/Message.js"></script>
+    <script src="js/Container.js"></script>
+    <script src="js/Bricks.js"></script>
+    <script src="js/Paddle.js"></script>
+    <script src="js/Ball.js"></script>
+    <script src="js/Level.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
